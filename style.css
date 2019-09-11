@@ -4,8 +4,45 @@
     padding:0;
 }
 
+body {
+    font-family: 'open sans', oswald;
+    
+}
+
 .header {
+    background-color: rgb(2	61	114);
+    color: white;
+    padding: 20px 35px;
+    padding-left: 35px;
+    margin: 0;
+    width : 100%;
+    border-bottom: 2px solid rgb(139	222	238	);
 
-    background-color: 2	61	114	
+}
 
+.contents {
+    padding-left: 35px;
+
+}
+
+.adopt {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.interest {
+    padding-bottom: 10px;
+}
+.dog_form {
+    background-color: rgb(236	233	234	);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+p {
+    font-size: 12px;
+    line-height: 1.5;
+}
+.figures {
+    
 }
