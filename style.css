@@ -5,7 +5,13 @@
 }
 
 body {
+    
     font-family: 'open sans', oswald;
+    background-color: white;
+    max-width: 60rem;
+    margin: 0 auto;
+    
+  
     
 }
 
@@ -35,16 +41,46 @@ body {
 }
 .dog_form {
     background-color: rgb(236	233	234	);
+    /* max-width: 60rem; */
     font-size: 12px;
     line-height: 1.5;
-    /* display: flex; */
+    
+    
 }
 
 p {
     font-size: 12px;
     line-height: 1.5;
 }
-.figures {
+
+.form_title {
+    margin-bottom: 1rem;
+}
+
+.questions {
+    display: flex;
+    margin-left: 10px;
+}
+
+.list_of_dogs {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-grow: 1;
     
+
+}
+
+.list_of_dogs img {
+    display: flex;
+    flex-wrap: wrap;
+    width: 250px;
+    padding-top: 10px;
+
+    
+    
+
 }
 
