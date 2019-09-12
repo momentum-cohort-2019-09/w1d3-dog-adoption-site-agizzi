@@ -11,9 +11,12 @@ body {
     max-width: 60rem;
     margin: 0 auto;
     
-  
-    
 }
+
+/* .container {
+    margin: 0 auto;
+    background-color: rgb(242	242	242	)
+} */
 
 .header {
     background-color: rgb(2	61	114);
@@ -28,6 +31,7 @@ body {
 
 .contents {
     padding-left: 35px;
+    padding-right: 35px;
 
 }
 
@@ -40,8 +44,9 @@ body {
     padding-bottom: 10px;
 }
 .dog_form {
+    /* display: flex; */
+    /* justify-content: space-between; */
     background-color: rgb(236	233	234	);
-    /* max-width: 60rem; */
     font-size: 12px;
     line-height: 1.5;
     
@@ -59,6 +64,7 @@ p {
 
 .questions {
     display: flex;
+    justify-content: space-between;
     margin-left: 10px;
 }
 
@@ -73,14 +79,39 @@ p {
 
 }
 
+.dogbox {
+    width: 250px;
+    padding-top: 1rem;
+}
+
 .list_of_dogs img {
     display: flex;
     flex-wrap: wrap;
     width: 250px;
-    padding-top: 10px;
-
-    
-    
+    padding-top: 10px; 
 
 }
+
+.list_of_dogs ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1rem 0;
+
+    
+    
+}
+.attributes li {
+    margin-right: 0.2rem;
+    border-radius: 25px;
+    padding: 5px;
+
+    background-color: rgb(144	223	239	);
+}
+
+.bubble {
+    margin-bottom: 5px;
+}
+
+
 
