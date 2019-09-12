@@ -7,16 +7,17 @@
 body {
     
     font-family: 'open sans', oswald;
-    background-color: white;
+    /* background-color: white; */
+    background-color: rgb(242	242	242	);
     max-width: 60rem;
     margin: 0 auto;
     
 }
 
-/* .container {
-    margin: 0 auto;
-    background-color: rgb(242	242	242	)
-} */
+.container {
+    background-color: white;
+}
+
 
 .header {
     background-color: rgb(2	61	114);
@@ -65,7 +66,7 @@ p {
 .questions {
     display: flex;
     justify-content: space-between;
-    margin-left: 10px;
+    /* margin-left: 10px; */
 }
 
 .list_of_dogs {
@@ -105,13 +106,47 @@ p {
     margin-right: 0.2rem;
     border-radius: 25px;
     padding: 5px;
-
     background-color: rgb(144	223	239	);
 }
 
 .bubble {
-    margin-bottom: 5px;
+    margin-bottom: 5px; 
+} 
+
+.redirect_buttons {
+    display:flex;
+    height: 300px;
+    background-color: white;
+
 }
 
 
+.redirect_buttons a {
+    display: flex;
+    height: 100%;
+    
+}
 
+.imagedonate {
+    background: linear-gradient(rgba(169, 169, 238,	0.7), rgba(169,	169, 238, 0.7)), url(/Users/Alex/momentum/week1/w1d3/w1d3-dog-adoption-site-agizzi/starter_files/images/donate.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.imagevolunteer {
+    background: linear-gradient(rgba(169, 169, 238,	0.7), rgba(169,	169, 238, 0.7)), url(/Users/Alex/momentum/week1/w1d3/w1d3-dog-adoption-site-agizzi/starter_files/images/volunteer.jpg) no-repeat;
+    color: white;
+}
+
+.imagelocation {
+    background: linear-gradient(rgba(169, 169, 238,	0.7), rgba(169,	169, 238, 0.7)), url(/Users/Alex/momentum/week1/w1d3/w1d3-dog-adoption-site-agizzi/starter_files/images/location.png) no-repeat;
+    color: white;
+}
+
+.button {
+    flex: 1 1 0;
+    text-align: center;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
